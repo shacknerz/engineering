@@ -3,7 +3,7 @@ layout: page
 title: Team
 ---
 
-These are some of the awesome engineers on our team at <a href="http://www.betterworks.com">BetterWorks</a>.
+These are some of the awesome engineers on our team at [BetterWorks](http://betterworks.com).
 We like to hang out, talk about technology, and get 1% better every day.
 
 <table>
