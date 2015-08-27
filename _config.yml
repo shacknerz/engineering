@@ -7,8 +7,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            'Engineering'
-tagline:          'getting 1% better every day'
+title:            'BetterWorks Engineering Blog'
+tagline:          '1% better every day'
 description:      'A place for <a href="http://www.betterworks.com">BetterWorks</a> engineers to geek out over all things interesting.'
 url:              http://engineering.betterworks.com
 baseurl:          /
