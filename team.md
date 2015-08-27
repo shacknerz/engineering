@@ -4,7 +4,7 @@ title: Team
 ---
 
 These are some of the awesome engineers on our team at <a href="http://www.betterworks.com">BetterWorks</a>.
-We're super
+We like to hang out, talk about technology, and get 1% better every day.
 
 <table>
   <tr>
@@ -18,9 +18,9 @@ We're super
     </td>
     <td>
       <center>
-        <a href="https://github.com/diwu1989">
-          <img src="https://avatars1.githubusercontent.com/u/380950?v=3&s=200">
-          <strong>Di</strong>
+        <a href="https://github.com/clarkduvall">
+          <img src="https://avatars0.githubusercontent.com/u/1607111?v=3&s=200">
+          <strong>Clark</strong>
         </a>
       </center>
     </td>
@@ -52,9 +52,87 @@ We're super
     </td>
     <td>
       <center>
-        <a href="https://github.com/clarkduvall">
-          <img src="https://avatars0.githubusercontent.com/u/1607111?v=3&s=200">
-          <strong>Clark</strong>
+        <a href="https://github.com/vivianliang">
+          <img src="https://avatars0.githubusercontent.com/u/4467143?v=3&s=200">
+          <strong>Vivian</strong>
+        </a>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <a href="https://github.com/cmds4410">
+          <img src="https://avatars1.githubusercontent.com/u/721387?v=3&s=200">
+          <strong>Connor</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/cobalthex">
+          <img src="https://avatars0.githubusercontent.com/u/236557?v=3&s=200">
+          <strong>Matt</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/ayu48">
+          <img src="https://avatars2.githubusercontent.com/u/5904857?v=3&s=200">
+          <strong>Ayu</strong>
+        </a>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <a href="https://github.com/joeghodsi">
+          <img src="https://avatars3.githubusercontent.com/u/6347094?v=3&s=200">
+          <strong>Joe</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/brendancwood">
+          <img src="https://avatars0.githubusercontent.com/u/7228347?v=3&s=200">
+          <strong>Brendan</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/bradyoo">
+          <img src="https://avatars0.githubusercontent.com/u/379257?v=3&s=200">
+          <strong>Bradley</strong>
+        </a>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <a href="https://github.com/kenadia">
+          <img src="https://avatars0.githubusercontent.com/u/3301218?v=3&s=200">
+          <strong>Ken</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/drewnewell">
+          <img src="https://avatars2.githubusercontent.com/u/2434851?v=3&s=200">
+          <strong>Drew</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/diwu1989">
+          <img src="https://avatars1.githubusercontent.com/u/380950?v=3&s=200">
+          <strong>Di</strong>
         </a>
       </center>
     </td>
