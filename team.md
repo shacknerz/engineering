@@ -4,29 +4,59 @@ title: Team
 ---
 
 These are some of the awesome engineers on our team at <a href="http://www.betterworks.com">BetterWorks</a>.
+We're super
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<table>
+  <tr>
+    <td>
+      <center>
+        <a href="https://github.com/nullsoldier">
+          <img src="https://avatars2.githubusercontent.com/u/458976?v=3&s=200">
+          <strong>Jason</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/diwu1989">
+          <img src="https://avatars1.githubusercontent.com/u/380950?v=3&s=200">
+          <strong>Di</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/terite">
+          <img src="https://avatars1.githubusercontent.com/u/44259?v=3&s=200">
+          <strong>David</strong>
+        </a>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <a href="https://github.com/danielcmartin">
+          <img src="https://avatars1.githubusercontent.com/u/4975028?v=3&s=200">
+          <strong>Daniel</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/mgeist">
+          <img src="https://avatars1.githubusercontent.com/u/844637?v=3&s=200">
+          <strong>Mat</strong>
+        </a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a href="https://github.com/clarkduvall">
+          <img src="https://avatars0.githubusercontent.com/u/1607111?v=3&s=200">
+          <strong>Clark</strong>
+        </a>
+      </center>
+    </td>
+  </tr>
+</table>
