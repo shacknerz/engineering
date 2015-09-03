@@ -30,9 +30,9 @@
  *
  * Update the foundational and global aspects of the page.
  */
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 html {
-  font-family: "Roboto", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Roboto, "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
