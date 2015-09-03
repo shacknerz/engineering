@@ -3,7 +3,7 @@ layout: post
 title: SQLAlchemy and Django
 author: Rebecca
 ---
-At [Betterworks](http://betterworks.com), we use the [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db) for data persistence and have found it to be very convenient for modeling and basic querying. It's very easy to use and does a lot of the work for you when it comes to dealing with multiple tables in the database. However, it falls short for some of the more complex queries.
+At [BetterWorks](http://betterworks.com), we use the [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db) for data persistence and have found it to be very convenient for modeling and basic querying. It's very easy to use and does a lot of the work for you when it comes to dealing with multiple tables in the database. However, it falls short for some of the more complex queries.
 
 Instead we use [SQLAlchemy](http://www.sqlalchemy.org/) for these advanced read-only use cases. We use [django-sabridge](http://django-sabridge.readthedocs.org/en/latest/) to instantiate SQLAlchemy tables and attach the `Bridge()` instance to the [local thread](https://docs.python.org/2/library/threading.html#threading.local). One hiccup we've hit while unit testing is that Django models are created and destroyed inside a test transaction, therefore, we had to create a subclass of [SQLAlchemy Query](http://docs.sqlalchemy.org/en/rel_1_0/orm/query.html#sqlalchemy.orm.query.Query) to execute queries inside the same database transaction.
 
@@ -23,21 +23,21 @@ and we want to filter by this formula:
 
 `2 * goal.progress <= goal.parent.progress`
 
-Filtering by this function is complex in Django ORM because it requires a formula and a join, and aggregates don't handle this easily.  It is possible to use `queryset.extra()` to do this by using a `select_related` to get the second reference to the goal table.  The Django ORM query will automatically join the goal table, named `goals_goal`, with itself and name the second table `T2`:
+Filtering by this function is complex in Django ORM because it requires a formula and a join, and aggregates don't handle this easily.  It is possible to use `queryset.extra()` to do this by using a `select_related` to get the second reference to the goal table.  The Django ORM query will automatically join the goal table, named `goal`, with itself and name the second table `T2`:
 
 ```py
 Goal.objects.all()
     .select_related('parent')
     .extra(select={'compare_progress':
-        'SELECT * FROM T2 WHERE 2 * goals_goal.progress <= T2.progress'})
+        'SELECT * FROM T2 WHERE 2 * goal.progress <= T2.progress'})
 ```
 
 This is obviously a huge hack and strongly discouraged. We could do the above query with much more control in raw SQL:
 
 ```sql
-SELECT * FROM goals_goal
-JOIN goals_goal AS parents ON goals_goal.parent_id = parents.id
-WHERE 2 * goals_goal.progress <= parents.progress
+SELECT * FROM goal
+JOIN goal AS parents ON goal.parent_id = parents.id
+WHERE 2 * goal.progress <= parents.progress
 ```
 
 Dealing with raw strings isn't very friendly nor safe, so we rewrite this query using SQLAlchemy.
@@ -59,13 +59,13 @@ Another really useful example of the benefits of SQLAlchemy is recursive CTEs.  
 WITH recursive children AS (
   -- start with the selected goal
   SELECT id, name
-  FROM goals_goal
+  FROM goal
   WHERE id = 1
   UNION
   -- unioned with children of all the goals in children
-  SELECT goals_goal.id, goals_goal.name
-  FROM goals_goal, children
-  WHERE goals_goal.parent_id = children.id
+  SELECT goal.id, goal.name
+  FROM goal, children
+  WHERE goal.parent_id = children.id
 )
 ```
 
