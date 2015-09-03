@@ -1,0 +1,46 @@
+html,
+.pagination {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #5bc0de;
+  transition: color 300ms ease;
+}
+
+.content a:hover,
+.content a:focus {
+  text-decoration: none;
+  color: #3ba0be;
+}
+
+.sidebar {
+  background-color: #5bc0de;
+  color: #515151;
+  padding: 0;
+}
+
+.sidebar .container {
+  padding: 0;
+  left: auto;
+  right: auto;
+}
+
+.sidebar .container > *,
+.sidebar-nav > * {
+  padding: 0 2rem;
+}
+
+.sidebar .container .sidebar-nav {
+  padding: 0;
+}
+
+.sidebar-nav a {
+  transition: background-color 200ms ease;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus {
+  background-color: #4bb0ce;
+  text-decoration: none;
+}
