@@ -3,7 +3,7 @@ layout: post
 title: SQLAlchemy and Django
 author: Rebecca
 ---
-At [BetterWorks](http://betterworks.com), we use the [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db) for data persistence and have found it to be very convenient for modeling and basic querying. It's very easy to use and does a lot of the work for you when it comes to dealing with multiple tables in the database. However, it falls short for some of the more complex queries.
+At [BetterWorks](https://betterworks.com), we use the [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db) for data persistence and have found it to be very convenient for modeling and basic querying. It's very easy to use and does a lot of the work for you when it comes to dealing with multiple tables in the database. However, it falls short for some of the more complex queries.
 
 Instead we use [SQLAlchemy](http://www.sqlalchemy.org/) for these advanced read-only use cases. We use [django-sabridge](http://django-sabridge.readthedocs.org/en/latest/) to instantiate SQLAlchemy tables and attach the `Bridge()` instance to the [local thread](https://docs.python.org/2/library/threading.html#threading.local). One hiccup we've hit while unit testing is that Django models are created and destroyed inside a test transaction, therefore, we had to create a subclass of [SQLAlchemy Query](http://docs.sqlalchemy.org/en/rel_1_0/orm/query.html#sqlalchemy.orm.query.Query) to execute queries inside the same database transaction.
 
