@@ -15,9 +15,9 @@ title: Home
       {{ post.date | date_to_string }}
       {% if post.author %}
         &nbsp;&middot;&nbsp;
-        {% assign author = site.authors[post.author] %}
+        {% assign author = site.data.authors[post.author] %}
         {% if author %}
-          <a href="{{ author.github }}">{{ author.name }}</a>
+          <a href="https://github.com/{{ author.github }}">{{ author.name }}</a>
         {% else %}
           {{ post.author }}
         {% endif %}

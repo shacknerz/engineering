@@ -8,9 +8,9 @@ layout: default
     {{ page.date | date_to_string }}
     {% if page.author %}
       &nbsp;&middot;&nbsp;
-      {% assign author = site.authors[page.author] %}
+      {% assign author = site.data.authors[page.author] %}
       {% if author %}
-        <a href="{{ author.github }}">{{ author.name }}</a>
+        <a href="https://github.com/{{ author.github }}">{{ author.name }}</a>
       {% else %}
         {{ page.author }}
       {% endif %}

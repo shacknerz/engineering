@@ -21,14 +21,3 @@ paginate:         5
 
 github:
   repo:           https://github.com/betterworks/engineering
-
-authors:
-  di:
-    name: 'Di Wu'
-    github: https://github.com/diwu1989
-  rebecca:
-    name: 'Rebecca Odim'
-    github: https://github.com/bexodim
-  clark:
-    name: 'Clark DuVall'
-    github: https://github.com/clarkduvall
