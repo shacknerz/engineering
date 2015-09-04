@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQLAlchemy and Django
-author: Rebecca
+author: rebecca
 ---
 At [BetterWorks](https://betterworks.com), we use the [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db) for data persistence and have found it to be very convenient for modeling and basic querying. It's very easy to use and does a lot of the work for you when it comes to dealing with multiple tables in the database. However, it falls short for some of the more complex queries.
 
