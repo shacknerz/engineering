@@ -14,7 +14,13 @@ title: Home
     <span class="post-date">
       {{ post.date | date_to_string }}
       {% if post.author %}
-        &nbsp;&middot;&nbsp; {{ post.author }}
+        &nbsp;&middot;&nbsp;
+        {% assign author = site.authors[post.author] %}
+        {% if author %}
+          <a href="{{ author.github }}">{{ author.name }}</a>
+        {% else %}
+          {{ post.author }}
+        {% endif %}
       {% endif %}
       &nbsp;&middot;&nbsp;
       <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-author: Di
+author: di
 ---
 Setting up this blog has been on my to-do list for more than a year. It's long overdue, but I'm extremely excited that we finally have our own engineering blog.
 

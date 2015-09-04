@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ditching Django REST Framework Serializers for Serpy
-author: Clark
+author: clark
 ---
 
 This is the story of how we ditched [Django REST Framework
