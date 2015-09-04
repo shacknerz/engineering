@@ -23,7 +23,7 @@ As I was profiling some of our slower APIs, I went through my checklist:
   - Slow SQL queries happening? __NOPE__
   - A lot of obvious work being done in Python? __NOPE__
 
-A typical view I was seeing this pattern for looked something like this:
+An example of a typical Django view where I was seeing this pattern looked something like this:
 
 ```py
 class GoalsView(BaseView):
