@@ -14,8 +14,10 @@ title: Home
     <span class="post-date">
       {{ post.date | date_to_string }}
       {% if post.author %}
-        &middot; {{ post.author }}
+        &nbsp;&middot;&nbsp; {{ post.author }}
       {% endif %}
+      &nbsp;&middot;&nbsp;
+      <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}"></a>
     </span>
 
     {{ post.content }}
@@ -39,3 +41,16 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'betterworksengineering';
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
