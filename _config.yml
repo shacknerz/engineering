@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            'BetterWorks Engineering Blog'
 tagline:          '1% better every day'
 description:      'A place for <a href="http://www.betterworks.com">BetterWorks</a> engineers to geek out over all things interesting.'
-url:              http://engineering.betterworks.com
+url:              https://engineering.betterworks.com
 baseurl:          /
 
 author:
