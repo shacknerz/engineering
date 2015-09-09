@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: Roboto, "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Roboto, "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -106,9 +106,9 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    right: 1rem;
+    top: 2rem;
+    left: 1rem;
   }
 }
 

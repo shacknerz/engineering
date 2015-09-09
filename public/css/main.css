@@ -10,9 +10,33 @@ a {
 }
 
 .sidebar {
-  background-color: #5bc0de;
-  color: #515151;
+  background-color: #333333;
+  color: #cccccc;
   padding: 0;
+}
+
+.sidebar .title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 2px;
+  padding-bottom: 30px;
+}
+
+.sidebar .lead {
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+.sidebar .copyright {
+  font-size: 14px;
+  position: fixed;
+  bottom: 1rem;
+}
+
+.sidebar hr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 0;
+  margin: 0;
 }
 
 .sidebar .container {
@@ -31,11 +55,13 @@ a {
 }
 
 .sidebar-nav a {
+  color: #5bc0de;
   transition: background-color 200ms ease;
 }
 
 .sidebar-nav a:hover,
 .sidebar-nav a:focus {
-  background-color: #4bb0ce;
+  background-color: #5bc0de;
+  color: white;
   text-decoration: none;
 }

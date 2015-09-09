@@ -1,11 +1,11 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h1>
+      <a href="https://betterworks.com">
+        <img alt="BetterWorks" height="34" src="/public/img/logo.png">
+      </a>
+      <hr>
+      <p class="title">Engineering Blog</p>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -33,10 +33,10 @@
         <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
       {% endcomment %}
 
-      <a class="sidebar-nav-item" style="color: #E6FFFF" href="http://www.betterworks.com/careers/">Join Us!</a>
+      <a class="sidebar-nav-item" href="http://www.betterworks.com/careers/">Join Us!</a>
 
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
