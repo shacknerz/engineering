@@ -37,6 +37,7 @@ a {
 .sidebar-about .lead {
   font-size: 16px;
   padding-bottom: 30px;
+  margin-top: 1em;
 }
 
 .sidebar .copyright {
@@ -102,8 +103,24 @@ a {
 
   .sidebar-about .title {
     font-size: 20px;
-    padding-bottom: 0;
-    margin-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .sidebar-about .title::before {
+    content: '';
+    display: inline-block;
+    background-image: url('/public/img/icon.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    margin-top: -0.15em;
+  }
+
+  .content {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
 }
