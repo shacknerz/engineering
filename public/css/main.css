@@ -1,6 +1,9 @@
+::-moz-selection { background: rgba(0, 0, 0, 0.1); }
+::selection { background: rgba(0, 0, 0, 0.1); }
+
 a {
   color: #5bc0de;
-  transition: color 300ms ease;
+  transition: color 200ms ease;
 }
 
 .content a:hover,
@@ -42,8 +45,12 @@ a {
 
 .sidebar .copyright {
   font-size: 14px;
-  position: fixed;
+  position: absolute;
   bottom: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #888888;
 }
 
 .sidebar .container {
