@@ -15,14 +15,26 @@ a {
   padding: 0;
 }
 
-.sidebar .title {
+.sidebar-about hr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 0;
+  margin: 0;
+}
+
+.sidebar-about img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 34px;
+}
+
+.sidebar-about .title {
   text-align: center;
   font-size: 28px;
   padding-top: 2px;
   padding-bottom: 30px;
 }
 
-.sidebar .lead {
+.sidebar-about .lead {
   font-size: 16px;
   padding-bottom: 30px;
 }
@@ -31,12 +43,6 @@ a {
   font-size: 14px;
   position: fixed;
   bottom: 1rem;
-}
-
-.sidebar hr {
-  border-top: 1px solid #cccccc;
-  border-bottom: 0;
-  margin: 0;
 }
 
 .sidebar .container {
