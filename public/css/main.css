@@ -71,3 +71,37 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 48em) {
+  .sidebar .copyright {
+    display: none;
+  }
+
+  .sidebar-nav-item {
+    display: inline-block;
+  }
+
+  .sidebar .container .sidebar-nav {
+    padding-bottom: 10px;
+  }
+
+  .sidebar-about img {
+    display: none;
+  }
+
+  .sidebar-about .lead {
+    display: none;
+    padding-bottom: 0;
+  }
+
+  .sidebar-about hr {
+    display: none;
+  }
+
+  .sidebar-about .title {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    padding-top: 5px;
+  }
+}
