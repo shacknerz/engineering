@@ -78,6 +78,8 @@ a {
   }
 
   .sidebar-nav-item {
+    padding-left: 14px;
+    padding-right: 14px;
     display: inline-block;
   }
 
