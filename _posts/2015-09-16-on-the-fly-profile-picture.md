@@ -33,8 +33,8 @@ We learned a lot about server side canvas drawing while building this and our pr
 has been averaging a blazingly fast 26ms response time.
 ![performance](/public/img/2015-09-16-on-the-fly-profile-picture/perf.png)
 
-Feel free to check out the open sourced code at
-[github.com/BetterWorks/defaulter](https://github.com/BetterWorks/defaulter).
+**Check out the open sourced code at
+[github.com/BetterWorks/defaulter](https://github.com/BetterWorks/defaulter)**
 
 We even included a convenient Heroku deploy button so that you can get up and running with your own
 service in seconds.
