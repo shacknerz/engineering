@@ -12,8 +12,8 @@ We used to assign a random picture from the following set via `user_id % 15`:
 
 *Trivia: the first two images were secret ones that only devs can obtain*
 
-As you can see, we don't have a big selection of pictures so with bigger customer organizations,
-it can be hard to distinguish users. To solve this, our design team came up with a more personalized
+As you can see, we didn't have a big selection of pictures so with bigger customer organizations,
+it could be hard to distinguish users. To solve this, our design team came up with a more personalized
 approach to default pictures using people's initials and a random color from our palette. This also
 means we would have to **render the pictures on the fly using dynamic information** about the user.
 
