@@ -23,7 +23,7 @@ means we would have to **render the pictures on the fly using dynamic informatio
 The business logic in this project is very simple, so we decided on a [NodeJS](https://nodejs.org)
 server using [express](http://expressjs.com/) and image rendering using
 [node-canvas](https://github.com/Automattic/node-canvas). The [actual rendering code](https://github.com/BetterWorks/defaulter/blob/master/routes/index.js)
-is less than 50 lines and we had deployed on [Heroku](https://heroku.com) within hours.
+is less than 50 lines and we had up and running on [Heroku](https://heroku.com) within hours.
 
 *Trivia: to render Chinese Japanese Korean characters properly, we detect `char > '\u2E7F'`
 and switch to a font that supported CJK characters*
