@@ -6,6 +6,8 @@ title: Team
 These are some of the awesome engineers on our team at [BetterWorks](http://betterworks.com).
 We like to hang out, talk about technology, and get 1% better every day.
 
+![team](/public/img/team.jpg)
+
 <table>
   <tr>
     <td>
